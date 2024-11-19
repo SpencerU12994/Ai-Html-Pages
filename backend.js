@@ -9,7 +9,7 @@ const path = require('path')
 
 
 
-var moveFrom = "../";
+var moveFrom = "./HTML";
 
 // Loop through all the files in the temp directory
 fs.readdir(moveFrom, function (err, files) {
